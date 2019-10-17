@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A6E9F7CAA3B944C9B0FCED /* Pods_Perceptron.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A8A9E1343C9D354DE1AE45 /* Pods_Perceptron.framework */; };
+		3B13A1EC23561A2C00D819E3 /* TrainMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13A1EB23561A2C00D819E3 /* TrainMode.swift */; };
+		3B13A1EE23561D8200D819E3 /* TryMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13A1ED23561D8200D819E3 /* TryMode.swift */; };
 		3B90733223522847008092F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B90733123522847008092F0 /* AppDelegate.swift */; };
 		3B90733423522847008092F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B90733323522847008092F0 /* SceneDelegate.swift */; };
-		3B90733623522847008092F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B90733523522847008092F0 /* ViewController.swift */; };
 		3B90733923522847008092F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B90733723522847008092F0 /* Main.storyboard */; };
 		3B90733B23522848008092F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B90733A23522848008092F0 /* Assets.xcassets */; };
 		3B90733E23522848008092F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B90733C23522848008092F0 /* LaunchScreen.storyboard */; };
+		3B90734923522FFF008092F0 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B90734823522FFF008092F0 /* extensions.swift */; };
+		3B90734B235230ED008092F0 /* ChooseModeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B90734A235230ED008092F0 /* ChooseModeVC.swift */; };
+		3B96D0C123560C7A00339407 /* example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B96D0C023560C7A00339407 /* example.swift */; };
+		3BB855BF2357B6EA0045AEF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BB855BE2357B6EA0045AEF6 /* GoogleService-Info.plist */; };
+		3BEE0CAE23564DE3005C32C1 /* perceptron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE0CAD23564DE3005C32C1 /* perceptron.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1978F63757CCFFF9C96DBC13 /* Pods-Perceptron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perceptron.release.xcconfig"; path = "Target Support Files/Pods-Perceptron/Pods-Perceptron.release.xcconfig"; sourceTree = "<group>"; };
+		3B13A1EB23561A2C00D819E3 /* TrainMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainMode.swift; sourceTree = "<group>"; };
+		3B13A1ED23561D8200D819E3 /* TryMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryMode.swift; sourceTree = "<group>"; };
 		3B90732E23522847008092F0 /* Perceptron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perceptron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B90733123522847008092F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B90733323522847008092F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B90733523522847008092F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B90733823522847008092F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B90733A23522848008092F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B90733D23522848008092F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B90733F23522848008092F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B90734823522FFF008092F0 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		3B90734A235230ED008092F0 /* ChooseModeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseModeVC.swift; sourceTree = "<group>"; };
+		3B96D0C023560C7A00339407 /* example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example.swift; sourceTree = "<group>"; };
+		3BB855BE2357B6EA0045AEF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BEE0CAD23564DE3005C32C1 /* perceptron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perceptron.swift; sourceTree = "<group>"; };
+		60562FB0C473BF2B65886C2E /* Pods-Perceptron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perceptron.debug.xcconfig"; path = "Target Support Files/Pods-Perceptron/Pods-Perceptron.debug.xcconfig"; sourceTree = "<group>"; };
+		D6A8A9E1343C9D354DE1AE45 /* Pods_Perceptron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Perceptron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A6E9F7CAA3B944C9B0FCED /* Pods_Perceptron.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27ABB7562929F5AE1818694C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60562FB0C473BF2B65886C2E /* Pods-Perceptron.debug.xcconfig */,
+				1978F63757CCFFF9C96DBC13 /* Pods-Perceptron.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3B90732523522847008092F0 = {
 			isa = PBXGroup;
 			children = (
 				3B90733023522847008092F0 /* Perceptron */,
 				3B90732F23522847008092F0 /* Products */,
+				27ABB7562929F5AE1818694C /* Pods */,
+				BB5A87D46E8A72F5E59458B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,45 @@
 		3B90733023522847008092F0 /* Perceptron */ = {
 			isa = PBXGroup;
 			children = (
+				3B96D0BF23560C6A00339407 /* model */,
+				3B90734723522F12008092F0 /* utils */,
 				3B90733123522847008092F0 /* AppDelegate.swift */,
 				3B90733323522847008092F0 /* SceneDelegate.swift */,
-				3B90733523522847008092F0 /* ViewController.swift */,
 				3B90733723522847008092F0 /* Main.storyboard */,
 				3B90733A23522848008092F0 /* Assets.xcassets */,
 				3B90733C23522848008092F0 /* LaunchScreen.storyboard */,
 				3B90733F23522848008092F0 /* Info.plist */,
+				3BB855BE2357B6EA0045AEF6 /* GoogleService-Info.plist */,
+				3B90734A235230ED008092F0 /* ChooseModeVC.swift */,
+				3B13A1EB23561A2C00D819E3 /* TrainMode.swift */,
+				3B13A1ED23561D8200D819E3 /* TryMode.swift */,
 			);
 			path = Perceptron;
+			sourceTree = "<group>";
+		};
+		3B90734723522F12008092F0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				3B90734823522FFF008092F0 /* extensions.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		3B96D0BF23560C6A00339407 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3B96D0C023560C7A00339407 /* example.swift */,
+				3BEE0CAD23564DE3005C32C1 /* perceptron.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BB5A87D46E8A72F5E59458B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6A8A9E1343C9D354DE1AE45 /* Pods_Perceptron.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B90734223522848008092F0 /* Build configuration list for PBXNativeTarget "Perceptron" */;
 			buildPhases = (
+				F809EB9576EF64B8521402ED /* [CP] Check Pods Manifest.lock */,
 				3B90732A23522847008092F0 /* Sources */,
 				3B90732B23522847008092F0 /* Frameworks */,
 				3B90732C23522847008092F0 /* Resources */,
+				B3191DDE66CD6F80C76ED304 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B90733E23522848008092F0 /* LaunchScreen.storyboard in Resources */,
+				3BB855BF2357B6EA0045AEF6 /* GoogleService-Info.plist in Resources */,
 				3B90733B23522848008092F0 /* Assets.xcassets in Resources */,
 				3B90733923522847008092F0 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +194,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3191DDE66CD6F80C76ED304 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Perceptron/Pods-Perceptron-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Perceptron/Pods-Perceptron-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Perceptron/Pods-Perceptron-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F809EB9576EF64B8521402ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Perceptron-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B90732A23522847008092F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B90733623522847008092F0 /* ViewController.swift in Sources */,
+				3B96D0C123560C7A00339407 /* example.swift in Sources */,
+				3B13A1EE23561D8200D819E3 /* TryMode.swift in Sources */,
+				3B90734923522FFF008092F0 /* extensions.swift in Sources */,
+				3B90734B235230ED008092F0 /* ChooseModeVC.swift in Sources */,
 				3B90733223522847008092F0 /* AppDelegate.swift in Sources */,
+				3BEE0CAE23564DE3005C32C1 /* perceptron.swift in Sources */,
 				3B90733423522847008092F0 /* SceneDelegate.swift in Sources */,
+				3B13A1EC23561A2C00D819E3 /* TrainMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		3B90734323522848008092F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60562FB0C473BF2B65886C2E /* Pods-Perceptron.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,12 +402,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.imarin.Perceptron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		3B90734423522848008092F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1978F63757CCFFF9C96DBC13 /* Pods-Perceptron.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.imarin.Perceptron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
