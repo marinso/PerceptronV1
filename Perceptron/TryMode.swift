@@ -18,7 +18,7 @@ class TryMode: UIViewController {
     var arraysOfData = [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     var exampleNumber = -1
     var perceptrons = [Perceptron]()
-    
+
     var currentButtonTag = 1
     var vStack: UIStackView!
     
@@ -48,6 +48,8 @@ class TryMode: UIViewController {
         button.titleLabel?.font = UIFont.systemFont(ofSize: 45)
         return button
     }()
+    
+    // MARK: - LIFECYCLE
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -123,7 +125,6 @@ class TryMode: UIViewController {
             arraysOfData[sender.tag] = 0
         }
     }
-    
             
     // MARK: - Machine Learing
     
@@ -141,6 +142,7 @@ class TryMode: UIViewController {
     }
     
     @objc func checkResult() {
+        resultLabel.text = ""
         var summary = -1
     
         perceptrons.forEach { (perceptron) in
@@ -148,9 +150,8 @@ class TryMode: UIViewController {
             
             if result == 1 {
                 summary = perceptron.number!
+                resultLabel.text = resultLabel.text! + " \(summary)"
             }
         }
-        resultLabel.text = "\(summary)"
     }
-   
 }

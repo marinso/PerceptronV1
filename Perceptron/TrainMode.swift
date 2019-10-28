@@ -17,7 +17,7 @@ class TrainMode: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource 
    var buttonArray = [UIButton]()
    var hStackArray = [UIStackView]()
    var arraysOfData = [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-   var exampleNumber = -1
+   var exampleNumber = 0
    
    var currentButtonTag = 1
    var vStack: UIStackView!

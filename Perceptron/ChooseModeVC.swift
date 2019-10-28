@@ -44,6 +44,14 @@ class ChooseModeVC: UIViewController {
         tryModeButton.translatesAutoresizingMaskIntoConstraints = false
         tryModeButton.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         tryModeButton.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 200).isActive = true
+        
+        
+        
+        
+        var a = [1, 2, 3]
+        var b = a
+        b[0] = 7
+        print(a)
     }
     
     @objc func handleTrainMode() {
